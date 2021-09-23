@@ -37,7 +37,7 @@ void Q3() {
     std::cout << "Enter the name of the student: ";
     std::cin >> check;
     if(map.find(check) == map.end()) {
-        std::cout << "Not Exists";
+        std::cout << "Not exists";
     } else {
         std::cout << map[check];
     }
